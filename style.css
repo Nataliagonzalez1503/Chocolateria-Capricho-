@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+
+.barra-navegacion{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    font-family:'Trebuchet MS';
+    font-size: 120%;
+    height: 60px;
+    align-items: center;
+
+}
+
+.btns{
+    display: flex;
+    list-style-type: none;
+    color: rgb(223, 46, 155);
+    
+    
+  
+}
+
+.btns li{
+    display: inline;
+    padding: 8px;
+}
+
+.btns li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.btns li a:hover{
+    color: rgb(209, 209, 209);
+}
+
+.banner{
+    background-image:url(Imagenes/Banner.png);
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+
+.title{
+   text-align: center;
+   padding: 150px;
+   color: rgb(4, 0, 0);
+}
+
+.title h1{
+    font-size: 600%;
+}
+.title h6{
+    font-size: 150%;
+}
+
+
+.quienes-somos{
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+    
+    
+}
+
+.quienes-somos img{
+    width:350px;
+}
+
+.quienes-somos p{
+    font-size: 160%;
+    width: 350px;
+    padding-top: 100px;
+    
+}
+
+.portafolio{
+    background-image:url(Imagenes/portada\ mejor.jpg);
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    
+
+
+}
+
+.portafolio h1{
+    display: flex;
+    background-color: rgb(234, 11, 179);
+    width:600px;
+    color: white;
+    font-size: 65px;
+    padding:40px;
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 150px;
+
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS';
+
+}
+
+.description h3{
+    display: flex;
+    justify-content: left;
+    color:rgb(234, 11, 179) ;
+    font-size: 35px;
+
+    
+}
+.description p{
+    display: flex;
+    justify-content: left;
+    font-size: 20px;
+    
+}
+
+.info-venta{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 150px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    
+    
+    
+}
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.card-info img{
+    display: flex;
+    width:30%;
+    padding-left: 250px;
+}
+
+.description-info h3{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.description-info p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+   
+}
+
+.contacto{
+    display: flex;
+    background-color: rgb(19, 19, 19);
+    height: 250px;
+    margin-top: 80px;
+    justify-content: center;
+   
+    
+    
+    
+    
+    
+    
+}
+
+.btns-redes{
+    display: flex;
+    padding-top: 25px;
+    color: rgb(151, 151, 151) ;
+    flex-direction: column;
+   
+    
+    
+    
+ 
+}
+
+.btns-redes p{
+    padding-top: 15px;
+    text-align: center;
+
+    
+}
+
+.btns-redes li{
+    display: inline;
+    padding: 5px;
+    text-align: center;
+}
+
+.btns-redes li a{
+    text-decoration: none;
+    color: rgb(234, 11, 179);
+}
+
+.btns-redes li a:hover{
+    color: rgb(250, 172, 231);
+}
+
+.btns-redes h1{
+    padding: 40px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(19, 19, 19);
+}
